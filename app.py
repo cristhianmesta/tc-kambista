@@ -16,8 +16,8 @@ sql_cnn_str = (
         r'Trusted_Connection=yes;'
 )
 
-precio_venta_anterior = 0
-precio_venta = 0
+precio_venta_anterior   = 0
+precio_venta            = 0
 
 while True:
     resp = requests.get('https://api.kambista.com/v1/exchange/calculates?originCurrency=USD&destinationCurrency=PEN&amount=8&active=R')
