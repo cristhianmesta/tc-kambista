@@ -2,5 +2,5 @@
 
 ## Paquetes
 
-pip install requests
-pip install pyodbc
+- pip install requests
+- pip install pyodbc
