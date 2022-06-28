@@ -89,4 +89,5 @@ while True:
             except:
                 print("No se pudieron recuperar los datos")
 
+    print('-' * 80)
     time.sleep(20) 
